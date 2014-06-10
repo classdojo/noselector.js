@@ -1,0 +1,30 @@
+{
+  "name": "noselector",
+  "version": "0.0.2",
+  "description": "noselector ==========",
+  "main": "./lib/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/classdojo/noselector.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/classdojo/noselector/issues"
+  },
+  "homepage": "https://github.com/classdojo/noselector",
+  "devDependencies": {
+    "nofactor": "0.0.x",
+    "expect.js": "0.3.1",
+    "mocha": "1.20.1",
+    "jsdom": "^0.10.6"
+  },
+  "dependencies": {
+    "bindable": "0.5.x",
+    "toarray": "0.0.1",
+    "lodash": "^2.4.1"
+  }
+}
