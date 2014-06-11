@@ -39,6 +39,18 @@ describe("noselector#", function () {
       var element = pc.template("<div class='abba baab' /><div />").bind().render();
       expect(noselector(element).find(".baab").length).to.be(1);
     });
+
+    it("can find a nested elemented", function () {
+      var element = pc.template(
+        "<li name='abba'>" +
+          "<input />" +
+          "<label>abba</label>" +
+          "<button></button>" +
+        "</li>"
+      ).bind().render();
+
+      expect(noselector(element).find("button").andSelf().filter("button").length).to.be(1);
+    })
   });
 
   describe("attributes", function () {
