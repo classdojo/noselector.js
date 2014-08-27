@@ -1,6 +1,6 @@
 {
   "name": "noselector",
-  "version": "0.0.11",
+  "version": "0.0.12",
   "description": "noselector ==========",
   "main": "./lib/index.js",
   "scripts": {
@@ -21,7 +21,7 @@
     "expect.js": "0.3.1",
     "mocha": "1.20.1",
     "jsdom": "^0.10.6",
-    "paperclip": "^0.3.127"
+    "paperclip": "0.3.x"
   },
   "dependencies": {
     "bindable": "0.5.x",

@@ -61,6 +61,15 @@ describe("noselector#", function () {
     });
   });
 
+  describe("css", function () {
+    it("can be set to the node", function () {
+      var element = pc.template("<div><div /></div>").bind().render();
+      expect(element.toString()).to.be('<div><div></div></div>');
+      noselector(element).find("div").css({ "color": "red" });
+      expect(element.toString()).to.be('<div style="color:red;"><div style="color:red;"></div></div>');
+    });
+  });
+
   describe("events", function () {
     it("can bind an event", function () {
       var element = pc.template("<div><div /></div>").bind().render();
