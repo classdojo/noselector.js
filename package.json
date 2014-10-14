@@ -1,6 +1,6 @@
 {
   "name": "noselector",
-  "version": "0.0.12",
+  "version": "0.0.13",
   "description": "noselector ==========",
   "main": "./lib/index.js",
   "scripts": {
@@ -24,7 +24,7 @@
     "paperclip": "0.3.x"
   },
   "dependencies": {
-    "bindable": "0.5.x",
+    "bindable": "0.6.x",
     "toarray": "0.0.1",
     "lodash": "^2.4.1"
   }
